@@ -1,0 +1,130 @@
+* {
+    background:  #E5E5E5;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    position: relative;
+}
+header{
+    margin: 0 auto;
+}
+.logo-Alura {
+position: absolute;
+left: 36.67%;
+right: 37.43%;
+top: 0%;
+bottom: 0%;
+background: #0A3871;
+    
+}
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 80px;
+
+}
+.area-de-texto {
+    display: inline-block;
+}
+
+.text-area {
+    border: none;
+    color: #0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+    background: #D8DFE8;
+    margin-left: 165px;
+    margin-top: auto;
+    padding: 24px;
+    border-radius: 24px;
+    width: 528px;
+    height: 180px;
+}
+::placeholder {
+    color: #0A3871;
+}
+.text-area:focus{
+        outline: none;
+}
+
+.mensagem{
+    background: white;
+    border: none;
+    border-radius: 24px;
+    border-color: #0A3871;
+    padding: 24px;
+    display: flex;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 365px;
+}
+.mensagem:focus{
+    outline: none;
+}
+
+.button {
+    display: inline-block;
+    padding: 18px;
+}
+
+.informacao,h6 {
+    font-size: 18px;
+    color: #495057;
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 0;
+    margin-left: 86px;
+    margin-top: 80px;
+}
+
+.btn-encriptar {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    background: #0A3871;
+    color: white;
+    padding: 20px 80px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    margin-left: 146px;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+.btn-encriptar:hover {
+    cursor: pointer;
+}
+
+.btn-descriptar {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    background: #D8DFE8;
+    color: #0A3871;
+    padding: 20px 80px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
+
+.btn-descriptar:hover {
+    cursor: pointer;
+}
+
+.btn-copiar {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    background: #D8DFE8;
+    color: #0A3871;
+    padding: 20px 80px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}   
+
+.btn-copiar:hover {
+    cursor: pointer;
+
+}
